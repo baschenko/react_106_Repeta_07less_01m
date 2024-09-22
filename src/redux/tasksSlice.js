@@ -5,7 +5,7 @@ const slice = createSlice({
   initialState: {
     items: [],
     loading: false,
-    error: false,
+    error: null,
   },
 });
 
